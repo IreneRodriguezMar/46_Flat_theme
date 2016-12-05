@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*utilities*/
+.mt-10{
+	margin-top: 10%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+/*index/home*/
+.imgTigre{
+	background-image: url(../images/slider/bg1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 10%;
+}
+header{
+	background-color: #34495E !important;
+}
+/*portafolio*/
+.gris{
+	background-color: gainsboro;
+}
+.line{
+	border: solid white 10px;
+}
+.row {
+    margin-bottom: 0px !important;
+}
+.imgPort{
+	height: 290px !important;
+}
+
+footer.page-footer {
+    margin-top: 0px !important; 
+}
+@media (min-width: 320px) and (max-width: 767px) {
+.imgPort{
+	height: 90px !important;
+}
+  .card {
+  position: relative;
+  margin: 0.1rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+}
+}

@@ -1,0 +1,43 @@
+.marginTop {
+  margin-top: 10%; }
+
+.pt-5 {
+  padding-top: 5%; }
+
+.pb-5 {
+  padding-bottom: 5%; }
+
+/*utilities */
+/*index/home */
+.imgTigre {
+  background-image: url(../images/slider/bg1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 10%; }
+
+header {
+  background-color: #34495E !important; }
+
+/*portafolio */
+.gris {
+  background-color: gainsboro; }
+
+.line {
+  border: solid white 10px; }
+
+.row {
+  margin-bottom: 0px !important; }
+
+.imgPort {
+  height: 290px !important; }
+
+.page-footer {
+  margin-top: 0px !important; }
+
+.circuloGris {
+  border-radius: 100%;
+  width: 70%;
+  height: 70px;
+  background-color: gray; }
+
+/*# sourceMappingURL=main.css.map */
