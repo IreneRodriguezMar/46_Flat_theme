@@ -1,76 +1,118 @@
 <!DOCTYPE html5>
 <html lang="es">
-  <head>
-    <title>Flat Theme</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content=""/>
-    <meta name="author" content=""/>
-    <link rel="stylesheet" href="css/materialize.min.css"/>
-    <link rel="stylesheet" href="css/materialize.css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-  </head>
-  <body id="home">
-    <header>
-      <nav>
-        <div class="nav-wrapper blue-grey darken-3"><img class="brand-logo" src="images/logo.png" alt="Logo"/><a class="button-collapse" href="#" data-activates="mobile-demo"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About US</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portafolio">Portafolio</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About US</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portafolio">Portafolio</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <section>
-      <div class="container-fluid">
-        <div class="row imgTigre">
-          <div class="col s12 m12 l12 center-align white-text">
-            <h2>Powerful and Responsive Web Design</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="page-footer green accent-3">
-      <div class="container">
-        <div class="row white-text">
-          <div class="col s2 m1 l1"><a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></div>
-          <div class="col s10 m3 l3">
-            <h5>Twitter Marketing</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta dignissimos at atque ipsa, earum aut nobis.</p>
-          </div>
-          <div class="col s2 m1 l1"><a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></div>
-          <div class="col s10 m3 l3">
-            <h5>Facebook Marketing</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta dignissimos at atque ipsa, earum aut nobis.</p>
-          </div>
-          <div class="col s2 m1 l1"><a href="#"></a><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></div>
-          <div class="col s10 m3 l3">
-            <h5>Google Plus Marketing</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta dignissimos at atque ipsa, earum aut nobis.</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          <p>© 2014 Copyright Text</p><a class="grey-text text-lighten-4 right" href="#!">More Links			</a>
-        </div>
-      </div>
-    </footer>
-  </body>
+	<head>
+		<title>Flat Theme</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/animate.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+	</head>
+	<body id="home">
+		<!--[if IE]>
+            <style>
+
+                @media (min-width: 320px) and (max-width: 767px){
+
+                }
+            </style>
+        <![endif]-->
+
+		<div class="cont-home">
+			<div class="cont-home-nav">
+				<div class="cont-home-nav-cont-logo">
+					<img class="cont-home-nav-img" src="images/logo.png" alt="Logo"/>
+				</div>
+
+				<div class="cont-home-nav-mob hamburger">
+					<div class="_layer -top"></div>
+					<div class="_layer -mid"></div>
+					<div class="_layer -bottom"></div>
+				</div>
+				<nav class="cont-home-nav-mob menuppal">
+					<ul class="cont-home-nav-mob" id="mobile-demo">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About US</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#portafolio">Portafolio</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+
+				<ul class="cont-home-nav-desk">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About US</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portafolio">Portafolio</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<section>
+		<div class="cont-home-sec1">
+			<div class="cont-home-sec1-bg">
+				<div class="cont-home-sec1-cont-txt">
+					<h2>Powerful and Responsive Web Design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus</p>
+				</div>
+			</div>
+		</div>
+		</section>
+		<footer class="cont-home-foot">
+			<div class="cont-home-foot-cont">
+				<div class="cont-home-foot-cont-section">
+					<div class="col s2 m1 l1">
+						<a href="#">
+							<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="col s10 m3 l3">
+						<h5>Twitter Marketing</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta dignissimos at atque ipsa, earum aut nobis.</p>
+					</div>
+				</div>
+				<div class="cont-home-foot-cont-section">
+					<div class="col s2 m1 l1">
+						<a href="#">
+							<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="col s10 m3 l3">
+						<h5>Twitter Marketing</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta dignissimos at atque ipsa, earum aut nobis.</p>
+					</div>
+				</div>
+				<div class="cont-home-foot-cont-section">
+					<div class="col s2 m1 l1">
+						<a href="#">
+							<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="col s10 m3 l3">
+						<h5>Twitter Marketing</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta dignissimos at atque ipsa, earum aut nobis.</p>
+					</div>
+				</div>
+				<div class="cont-home-foot-cont-section">
+					<div class="col s2 m1 l1">
+						<a href="#">
+							<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="col s10 m3 l3">
+						<h5>Twitter Marketing</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dicta dignissimos at atque ipsa, earum aut nobis.</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+				<p>© 2014 Copyright Text</p><a class="grey-text text-lighten-4 right" href="#!">More Links			</a>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/main.js"></script>
+	</body>
 </html>
