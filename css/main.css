@@ -39,7 +39,7 @@ body {
 }
 .cont-home-sec1-cont-txt, .cont-home-sec1-bg, .cont-home-second-cont,
 .cont-home-second-cont-section, .cont-home-second-cont-section,
-.cont-home-second-cont-logo {
+.cont-home-second-cont-logo, .section-three {
   display:-webkit-box;
   display:-webkit-flex;
   display:-ms-flexbox;
@@ -153,7 +153,55 @@ body {
 .cont-home-second-cont-logo {
   margin: 0 5%;
 }
-/*second section */
+/*second three */
+.section-three {
+  background-color: #F5F5F5;
+  padding: 5%;
+}
+.section-three-slider-projects-cont.slick-initialized.slick-slider {
+  max-width: 70%;
+  margin: auto;
+}
+.section-three-slider-projects {
+  background-color: white;
+  padding: 3%;
+}
+.slick-initialized .slick-slide {
+  margin: .5%;
+}
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+.slick-prev {
+  left: -23vw!important;
+  top: 17vw!important;
+}
+.slick-next {
+  right: 81vw!important;
+  top: 17vw!important;
+}
+.slick-next:before, .slick-prev:before {
+  color: #E74C3C!important;
+}
+.section-three-projects {
+  color: #46586C;
+  padding: 5% 0;
+}
+.section-three-projects h5 {
+  font-family: roboto-regular;
+  font-size: 1.9vw;
+  margin: 0;
+}
+.section-three-projects p {
+  font-family: roboto-regular;
+}
+p.section-three-slider-title {
+  font-family: roboto-bold;
+  font-size: 1vw;
+  text-align: center;
+  color: #46586C;
+}
 /*second section */
 @media (min-width: 320px) and (max-width: 767px){
 
@@ -194,7 +242,29 @@ body {
   font-size: 3.4vw;
   padding-right: 10%;
 }
-	/*second section */
+  /*second three */
+  .section-three {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction:column;
+  }
+  .section-three-projects h5 {
+    font-size: 5vw;
+}
+.section-three-slider-projects-cont.slick-initialized.slick-slider {
+  max-width: 100%;
+  margin: auto;
+}
+.slick-prev {
+  left: 0vw!important;
+  top: -5vw!important;
+}
+.slick-next {
+  right: 79vw!important;
+  top: -5vw!important;
+}
 	/*second section */
 	/*second section */
 }
