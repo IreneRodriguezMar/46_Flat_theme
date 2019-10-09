@@ -37,7 +37,9 @@
 body {
   margin: 0!important;
 }
-.cont-home-sec1-cont-txt, .cont-home-sec1-bg {
+.cont-home-sec1-cont-txt, .cont-home-sec1-bg, .cont-home-second-cont,
+.cont-home-second-cont-section, .cont-home-second-cont-section,
+.cont-home-second-cont-logo {
   display:-webkit-box;
   display:-webkit-flex;
   display:-ms-flexbox;
@@ -68,7 +70,7 @@ body {
   -webkit-box-direction: normal;
   flex-direction:column;
 }
-.flex-row {
+.cont-home-second-cont, .cont-home-second-cont-section, .cont-home-second-cont-section {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   -webkit-box-orient: horizontal;
@@ -82,13 +84,13 @@ body {
   -webkit-box-direction: normal;
   flex-direction: row-reverse;
 }
-.cont-home-nav-cont-logo, .cont-home-sec1-bg {
+.cont-home-nav-cont-logo, .cont-home-sec1-bg, .cont-home-second-cont-logo {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
-.justify-content {
+.cont-home-second-cont-logo {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	-webkit-justify-content: center;
@@ -126,6 +128,33 @@ body {
 .cont-home-sec1-cont-txt p {
     font-size: 1.37vw;
 }
+/*second section */
+.cont-home-second {
+    background-color: #2Ecc71;
+}
+/*second section */
+.cont-home-second-cont {
+  max-width: 80%;
+  margin: auto;
+  height: auto;
+  padding: 5% 0;
+}
+.cont-home-second-cont-txt-logo h5 {
+  color: white;
+  font-family: roboto-bold;
+  font-size: 2vw;
+  margin: 0;
+}
+.cont-home-second-cont-txt-logo p {
+  color: white;
+  font-family: roboto-light;
+  font-size: 1.4vw;
+}
+.cont-home-second-cont-logo {
+  margin: 0 5%;
+}
+/*second section */
+/*second section */
 @media (min-width: 320px) and (max-width: 767px){
 
 	.cont-home-sec1 {
@@ -140,6 +169,34 @@ body {
 	.cont-home-sec1-cont-txt p {
 		font-size: 4.37vw;
 	}
+  /*second section */
+  .cont-home-second-cont {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction:column;
+  }
+  .cont-home-second-cont-section {
+    margin: 5% 0;
+  }
+  .cont-home-second-cont {
+    max-width: initial;
+    margin: 0;
+}
+.cont-home-second-cont-txt-logo h5 {
+  font-family: roboto-thin;
+  font-size: 5vw;
+  margin: 0;
+}
+.cont-home-second-cont-txt-logo p {
+  font-family: roboto-thin;
+  font-size: 3.4vw;
+  padding-right: 10%;
+}
+	/*second section */
+	/*second section */
+	/*second section */
 }
 
 
