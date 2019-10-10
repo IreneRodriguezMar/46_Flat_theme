@@ -6,5 +6,8 @@ $('.section-three-slider-projects-cont').slick({
     slidesToScroll: 1,
     dots: false,
     autoplay: true,
-    autoplaySpeed: 300
+    autoplaySpeed: 300,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover:false
 });
