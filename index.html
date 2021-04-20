@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="css/main.css"/>
 		<link rel="stylesheet" href="css/menu.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
 	</head>
@@ -27,11 +28,6 @@
 					<img class="cont-home-nav-img" src="images/logo.png" alt="Logo"/>
 				</div>
 
-				<div class="cont-home-nav-mob hamburger">
-					<div class="_layer -top"></div>
-					<div class="_layer -mid"></div>
-					<div class="_layer -bottom"></div>
-				</div>
 				<nav class="cont-home-nav-mob menuppal">
 					<ul class="cont-home-nav-mob" id="mobile-demo">
 						<li><a href="#home">Home</a></li>
@@ -43,14 +39,20 @@
 					</ul>
 				</nav>
 
-				<ul class="cont-home-nav-desk">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About US</a></li>
-					<li><a href="#services">Services</a></li>
-					<li><a href="#portafolio">Portafolio</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
+				<div class="nav_mob">
+					<button class="ham">
+						<span class="menuIcon material-icons">menu</span>
+						<span class="xIcon material-icons" style="display: none;">close</span>
+					</button>
+					<ul class="menu">
+						<li><a class="menuLink" href="#home">Home</a></li>
+						<li><a class="menuLink" href="#about">About US</a></li>
+						<li><a class="menuLink" href="#services">Services</a></li>
+						<li><a class="menuLink" href="#portafolio">Portafolio</a></li>
+						<li><a class="menuLink" href="#blog">Blog</a></li>
+						<li><a class="menuLink" href="#contact">Contact</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<section>
@@ -178,7 +180,9 @@
 			</div>
 			<div class="cont-five-bloq">
 				<div class="cont-five-bloq-sections">
+					<h5>Latest Blog</h5>
 					<div class="cont-five-bloq-sections-photo-cont">
+
 						<div class="cont-five-bloq-sections-photo-img">
 							<img src="./images/blog/thumb1.jpg" alt="">
 							<div class="cont-five-bloq-sections-photo-txt">
@@ -225,9 +229,9 @@
 					</p>
 					<h5>Newsletter</h5>
 					<div class="form-news">
-						<label for="newsletterEmailConfirmar">Enter your email</label>
+
 						<div>
-							<input type="text">
+							<input type="text" name="email" placeholder="Ententer your email">
 							<button type="submit">Go!</button>
 						</div>
 					</div>

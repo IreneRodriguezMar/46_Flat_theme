@@ -1,21 +1,28 @@
-// selector
-var menu = document.querySelector('.hamburger');
+let menu = document.querySelector(".menu")
+let ham = document.querySelector(".ham")
+let xIcon = document.querySelector(".xIcon")
+let menuIcon = document.querySelector(".menuIcon")
+let option1 = document.querySelector(".option1")
 
-// method
-function toggleMenu (event) {
-  this.classList.toggle('is-active');
-  document.querySelector( ".menuppal" ).classList.toggle("is_active");
-  event.preventDefault();
+ham.addEventListener("click", toggleMenu)
+
+function toggleMenu() {
+    if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu");
+        xIcon.style.display = "none";
+        menuIcon.style.display = "block";
+
+    } else {
+        menu.classList.add("showMenu");
+        xIcon.style.display = "block";
+        menuIcon.style.display = "none";
+    }
 }
 
-// event
-menu.addEventListener('click', toggleMenu, false);
+var menuLinks = document.querySelectorAll(".menuLink")
 
-//Solución con jQUery
-/*$(document).ready(function(){
-	$('.hamburger').click(function() {
-		$('.hamburger').toggleClass('is-active');
-		$('.menuresponsive').toggleClass('is-active');
-		return false;
-	});
-});*/
+menuLinks.forEach(
+    function (menuLink) {
+    menuLink.addEventListener("click", toggleMenu)
+    }
+)

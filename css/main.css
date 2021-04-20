@@ -253,6 +253,9 @@ p.section-three-slider-title {
   color: white;
   padding: 5%;
 }
+.cont-five-bloq-sections-photo-cont {
+  margin-top: 1rem;
+}
 .cont-five-bloq h5 {
   margin: 0;
 }
@@ -289,6 +292,7 @@ p.section-three-slider-title {
 }
 .form-news {
   font-family: roboto-thin;
+  margin-top: 1rem;
 }
 .form-news button {
   background-color: #E74C3C;
